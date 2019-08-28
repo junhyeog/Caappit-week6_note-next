@@ -1,0 +1,1 @@
+{"name":"note-next","version":"1.0.0","main":"index.js","license":"MIT","scripts":{"dev":"next"},"dependencies":{"next":"^9.0.5","react":"^16.9.0","react-dom":"^16.9.0"},"readme":"ERROR: No README data found!","_id":"note-next@1.0.0"}
