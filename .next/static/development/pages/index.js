@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\search.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
 
 /***/ "./components/Header.js":
 /*!******************************!*\
@@ -56,7 +56,21 @@ var Header = function Header() {
       lineNumber: 10
     },
     __self: this
-  }, "\uC18C\uAC1C")));
+  }, "\uC18C\uAC1C")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/ssr-test",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, __jsx("a", {
+    style: linkStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, "SSR \uD14C\uC2A4\uD2B8")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -5736,21 +5750,21 @@ exports.SUPPORTS_PERFORMANCE_USER_TIMING = exports.SUPPORTS_PERFORMANCE && typeo
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsearch&absolutePagePath=C%3A%5CUsers%5CUser%5CDownloads%5Ccappit%5C6%EC%A3%BC%EC%B0%A8%5Cnote-next%5Cpages%5Csearch.js!./":
-/*!*****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsearch&absolutePagePath=C%3A%5CUsers%5CUser%5CDownloads%5Ccappit%5C6%EC%A3%BC%EC%B0%A8%5Cnote-next%5Cpages%5Csearch.js ***!
-  \*****************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CUser%5CDownloads%5Ccappit%5C6%EC%A3%BC%EC%B0%A8%5Cnote-next%5Cpages%5Cindex.js!./":
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CUser%5CDownloads%5Ccappit%5C6%EC%A3%BC%EC%B0%A8%5Cnote-next%5Cpages%5Cindex.js ***!
+  \**********************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/search", function() {
-      var page = __webpack_require__(/*! ./pages/search.js */ "./pages/search.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
+      var page = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
       if(true) {
-        module.hot.accept(/*! ./pages/search.js */ "./pages/search.js", function() {
-          if(!next.router.components["/search"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/search.js */ "./pages/search.js")
-          next.router.update("/search", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
+          if(!next.router.components["/"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
+          next.router.update("/", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
@@ -10311,10 +10325,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/search.js":
-/*!*************************!*\
-  !*** ./pages/search.js ***!
-  \*************************/
+/***/ "./pages/index.js":
+/*!************************!*\
+  !*** ./pages/index.js ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10322,35 +10336,66 @@ module.exports = function(module) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-var _jsxFileName = "C:\\Users\\User\\Downloads\\cappit\\6\uC8FC\uCC28\\note-next\\pages\\search.js";
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
+var _jsxFileName = "C:\\Users\\User\\Downloads\\cappit\\6\uC8FC\uCC28\\note-next\\pages\\index.js";
+
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-var Search = function Search(_ref) {
-  var url = _ref.url;
-  return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+var Index = function Index() {
+  return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
-  }, "\uB2F9\uC2E0\uC774 \uAC80\uC0C9\uD55C \uD0A4\uC6CC\uB4DC\uB294 \"", url.query.keyword, "\" \uC785\uB2C8\uB2E4.");
+  }, "\uC548\uB155, Next.js"), __jsx("h2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/about",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, __jsx("a", {
+    style: {
+      background: 'black',
+      color: 'white'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, "\uC18C\uAC1C"))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Search);
+/* harmony default export */ __webpack_exports__["default"] = (Index);
 
 /***/ }),
 
-/***/ 0:
-/*!*********************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fsearch&absolutePagePath=C%3A%5CUsers%5CUser%5CDownloads%5Ccappit%5C6%EC%A3%BC%EC%B0%A8%5Cnote-next%5Cpages%5Csearch.js ***!
-  \*********************************************************************************************************************************************************************/
+/***/ 1:
+/*!**************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CUser%5CDownloads%5Ccappit%5C6%EC%A3%BC%EC%B0%A8%5Cnote-next%5Cpages%5Cindex.js ***!
+  \**************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fsearch&absolutePagePath=C%3A%5CUsers%5CUser%5CDownloads%5Ccappit%5C6%EC%A3%BC%EC%B0%A8%5Cnote-next%5Cpages%5Csearch.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsearch&absolutePagePath=C%3A%5CUsers%5CUser%5CDownloads%5Ccappit%5C6%EC%A3%BC%EC%B0%A8%5Cnote-next%5Cpages%5Csearch.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CUser%5CDownloads%5Ccappit%5C6%EC%A3%BC%EC%B0%A8%5Cnote-next%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CUser%5CDownloads%5Ccappit%5C6%EC%A3%BC%EC%B0%A8%5Cnote-next%5Cpages%5Cindex.js!./");
 
 
 /***/ }),
@@ -10366,5 +10411,5 @@ module.exports = dll_01f9a3fa864a7b7414d8;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=search.js.map
+},[[1,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=index.js.map

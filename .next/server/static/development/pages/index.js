@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -149,7 +149,21 @@ const Header = () => {
       lineNumber: 10
     },
     __self: undefined
-  }, "\uC18C\uAC1C")));
+  }, "\uC18C\uAC1C")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/ssr-test",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: undefined
+  }, __jsx("a", {
+    style: linkStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: undefined
+  }, "SSR \uD14C\uC2A4\uD2B8")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -858,10 +872,10 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ }),
 
-/***/ "./pages/search.js":
-/*!*************************!*\
-  !*** ./pages/search.js ***!
-  \*************************/
+/***/ "./pages/index.js":
+/*!************************!*\
+  !*** ./pages/index.js ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -869,36 +883,64 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-var _jsxFileName = "C:\\Users\\User\\Downloads\\cappit\\6\uC8FC\uCC28\\note-next\\pages\\search.js";
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
+var _jsxFileName = "C:\\Users\\User\\Downloads\\cappit\\6\uC8FC\uCC28\\note-next\\pages\\index.js";
+
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-const Search = ({
-  url
-}) => {
-  return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: undefined
-  }, "\uB2F9\uC2E0\uC774 \uAC80\uC0C9\uD55C \uD0A4\uC6CC\uB4DC\uB294 \"", url.query.keyword, "\" \uC785\uB2C8\uB2E4.");
-};
+const Index = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 5
+  },
+  __self: undefined
+}, __jsx("h1", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 6
+  },
+  __self: undefined
+}, "\uC548\uB155, Next.js"), __jsx("h2", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9
+  },
+  __self: undefined
+}, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  href: "/about",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10
+  },
+  __self: undefined
+}, __jsx("a", {
+  style: {
+    background: 'black',
+    color: 'white'
+  },
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
+  },
+  __self: undefined
+}, "\uC18C\uAC1C"))));
 
-/* harmony default export */ __webpack_exports__["default"] = (Search);
+/* harmony default export */ __webpack_exports__["default"] = (Index);
 
 /***/ }),
 
-/***/ 3:
-/*!*******************************!*\
-  !*** multi ./pages/search.js ***!
-  \*******************************/
+/***/ 4:
+/*!******************************!*\
+  !*** multi ./pages/index.js ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\User\Downloads\cappit\6주차\note-next\pages\search.js */"./pages/search.js");
+module.exports = __webpack_require__(/*! C:\Users\User\Downloads\cappit\6주차\note-next\pages\index.js */"./pages/index.js");
 
 
 /***/ }),
@@ -1036,4 +1078,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=search.js.map
+//# sourceMappingURL=index.js.map

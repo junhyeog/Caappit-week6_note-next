@@ -56,7 +56,21 @@ var Header = function Header() {
       lineNumber: 10
     },
     __self: this
-  }, "\uC18C\uAC1C")));
+  }, "\uC18C\uAC1C")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/ssr-test",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, __jsx("a", {
+    style: linkStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, "SSR \uD14C\uC2A4\uD2B8")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
