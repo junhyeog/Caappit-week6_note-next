@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include ../partials/head %>
+  </head>
+  <body>
+    <% include ../partials/nav %>
+
+    <div class="contact contact-new">
+      <div class="contact-menu">
+        <a href="/contacts">Back</a>
+      </div>
+      <h2>New</h2>
+      <form class="contact-form" action="/contacts" method="post">
+        <div>
+          <label for="id">id</label>
+          <input type="text" id="id" name="id" value="">
+        </div>
+        <div>
+          <label for="title">title</label>
+          <input type="text" id="title" name="title" value="">
+        </div>
+        <div>
+          <label for="text">text</label>
+          <input type="text" id="text" name="text" value="">
+        </div>
+        <div>
+          <button type="submit">Submit</button> <!--form이 submit되면 /contacts에 post를 요청한다.-->
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
