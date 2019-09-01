@@ -1,21 +1,21 @@
+<!-- container, list-group, list-group-item class 추가 -->
 <!DOCTYPE html>
 <html>
-  <head>
-    <% include ../partials/head %>
-  </head>
-  <body>
-    <% include ../partials/nav %>
+ <head>
+  <% include ../partials/head %>
+ </head>
+ <body>
+  <% include ../partials/nav %>
 
-    <div class="memo memo-index">
-      <h2>Index</h2>
-      <ul>
-        <% memos.forEach(function(memo) { %>
-          <li>
-            <!-- <%= memo.title %> title 출력--> 
-            <a href="/memos/<%= memo._id %>"><%= memo.title %></a> <!-- a tag를 이용해서 show action과 연결 -->
-          </li>
-        <% }) %>
-      </ul>
-    </div>
-  </body>
+  <div class="container memo memo-index">
+   <h2>Index</h2>
+   <ul class="list-group">
+    <% memos.forEach(function(memo) { %>
+     <li class="list-group-item">
+      <a href="/memos/<%= memo._id %>"><%= memo.title %></a>
+     </li>
+    <% }) %>
+   </ul>
+  </div>
+ </body>
 </html>

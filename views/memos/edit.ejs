@@ -1,3 +1,4 @@
+<!-- container, btn btn-default, form-group, form-class 추가 -->
 <!DOCTYPE html>
 <html>
   <head>
@@ -6,27 +7,27 @@
   <body>
     <% include ../partials/nav %>
 
-    <div class="memo memo-edit">
+    <div class="container memo memo-edit">
       <div class="memo-menu">
-        <a href="/memos/<%= memo._id %>">Back</a>
+        <a class="btn btn-default" href="/memos/<%= memo._id %>">Back</a>
       </div>
       <h2>Edit</h2>
       <form class="memo-form" action="/memos/<%= memo._id %>?_method=put" method="post">
         <!-- put은 form에서 사용할 수 없으므로 _method=put을 사용함 -->
-        <div>
+        <div class="form-group">
           <label for="title">title</label>
-          <input type="text" id="title" name="title" value="<%= memo.title %>">
+          <input class="form-control" type="text" id="title" name="title" value="<%= memo.title %>">
         </div>
-        <div>
+        <div class="form-group">
           <label for="id">id</label>
-          <input type="text" id="id" name="id" value="<%= memo.id %>">
+          <input class="form-control" type="text" id="id" name="id" value="<%= memo.id %>">
         </div>
-        <div>
+        <div class="form-group">
           <label for="text">text</label>
-          <input type="text" id="text" name="text" value="<%= memo.text %>">
+          <input class="form-control" type="text" id="text" name="text" value="<%= memo.text %>">
         </div>
         <div>
-          <button type="submit">Submit</button>
+          <button class="btn btn-default" type="submit">Submit</button>
         </div>
       </div>
     </form>

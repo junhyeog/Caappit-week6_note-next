@@ -1,3 +1,4 @@
+<!-- container, btn btn-default, form-group, form-class 추가 -->
 <!DOCTYPE html>
 <html>
   <head>
@@ -6,26 +7,26 @@
   <body>
     <% include ../partials/nav %>
 
-    <div class="memo memo-new">
+    <div class="container memo memo-new">
       <div class="memo-menu">
-        <a href="/memos">Back</a>
+        <a class="btn btn-default" href="/memos">Back</a>
       </div>
       <h2>New</h2>
       <form class="memo-form" action="/memos" method="post">
-        <div>
+        <div class="form-group">
           <label for="id">id</label>
-          <input type="text" id="id" name="id" value="">
+          <input class="form-control" type="text" id="id" name="id" value="">
         </div>
-        <div>
+        <div class="form-group">
           <label for="title">title</label>
-          <input type="text" id="title" name="title" value="">
+          <input class="form-control" type="text" id="title" name="title" value="">
         </div>
-        <div>
+        <div class="form-group">
           <label for="text">text</label>
-          <input type="text" id="text" name="text" value="">
+          <input class="form-control" type="text" id="text" name="text" value="">
         </div>
         <div>
-          <button type="submit">Submit</button> <!--form이 submit되면 /memos에 post를 요청한다.-->
+          <button class="btn btn-default" type="submit">Submit</button> <!--form이 submit되면 /memos에 post를 요청한다.-->
         </div>
       </form>
     </div>
