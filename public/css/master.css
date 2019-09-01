@@ -1,7 +1,11 @@
-.contact h2{
+  .memo h2{
     color: tomato;
   }
-  .contact .contact-form label{
+  .memo .memo-form label,
+  .memo-show label{
     display: inline-block;
     width: 50px;
+  }
+  .memo .memo-menu form{
+    display: inline-block;
   }

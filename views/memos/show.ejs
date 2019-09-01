@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include ../partials/head %>
+  </head>
+  <body>
+    <% include ../partials/nav %>
+
+    <div class="memo memo-show">
+      <div class="memo-menu">
+        <a href="/memos">Back</a>
+        <a href="/memos/<%= memo._id %>/edit">Edit</a> <!-- a tag로 edit action에 연결 -->
+        <form action="/memos/<%= memo._id %>?_method=delete" method="post"> <!-- a tag로는 get 요청만 할 수 있기 때문에 form 사용, form에서도 post밖에 요청할 수 없기 때문에 ?_method=delete가 action에 query로 추가되었습니다. 이 부분은 서버의 method override package에 의해 처리되어 delete 요청으로 변경됨. -->
+          <a href="#" onclick="confirm('Do you want to delete this?')?this.parentElement.submit():null;">Delete</a>
+        </form>
+      <div>
+      <h2>Show</h2>
+      <h3><%= memo.title%></h3>
+      <div>
+        <label>id</label><span><%= memo.id %></span>
+      </div>
+      <div>
+        <label>text</label><span><%= memo.text %></span>
+      </div>
+    </div>
+  </body>
+</html>

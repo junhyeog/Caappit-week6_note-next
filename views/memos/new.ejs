@@ -6,12 +6,12 @@
   <body>
     <% include ../partials/nav %>
 
-    <div class="contact contact-new">
-      <div class="contact-menu">
-        <a href="/contacts">Back</a>
+    <div class="memo memo-new">
+      <div class="memo-menu">
+        <a href="/memos">Back</a>
       </div>
       <h2>New</h2>
-      <form class="contact-form" action="/contacts" method="post">
+      <form class="memo-form" action="/memos" method="post">
         <div>
           <label for="id">id</label>
           <input type="text" id="id" name="id" value="">
@@ -25,7 +25,7 @@
           <input type="text" id="text" name="text" value="">
         </div>
         <div>
-          <button type="submit">Submit</button> <!--form이 submit되면 /contacts에 post를 요청한다.-->
+          <button type="submit">Submit</button> <!--form이 submit되면 /memos에 post를 요청한다.-->
         </div>
       </form>
     </div>
