@@ -1,4 +1,12 @@
 # Caappit-week6_note-next
 toy project
 
-memo 앱
+# title
+MongoDB를 이용한 Memo App 제작
+
+# library
+- express
+- body-parser
+- ejs
+- method-override
+-mongoose
